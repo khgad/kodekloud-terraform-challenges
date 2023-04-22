@@ -1,4 +1,4 @@
-resource "kubernetes_deployment" "frontent" {
+resource "kubernetes_deployment" "frontend" {
   metadata {
     name = "frontend"
     labels = {
